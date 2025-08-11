@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    color: #22E3F5;
+}
+
+a:active {
+    color: #22E3F5;
+}
+
+.links {
+}
+
+.links-2 {
+    color: brown;
+}
