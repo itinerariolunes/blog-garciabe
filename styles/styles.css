@@ -1,15 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
 a {
     text-decoration: none;
-    color: #22E3F5;
+    color: #ffffff;
+    transition: color 0.2s;
 }
 
-a:active {
-    color: #22E3F5;
+button {
+    width: fit-content;
+    padding: 10px 25px;
 }
 
-.links {
+a:hover {
+    color: #CBC2C2
 }
 
-.links-2 {
-    color: brown;
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232536;
+
+    padding: 5px 20px;
 }
+
+.linksDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+    background: #666666;
+    background: linear-gradient(52deg, rgba(102, 102, 102, 1) 0%, rgba(103, 103, 103, 1) 47%, rgba(114, 114, 114, 1) 58%, rgba(183, 183, 183, 1) 75%, rgba(199, 199, 199, 1) 87%, rgba(247, 247, 247, 1) 100%);
+
+    height: 400px;
+    padding-left: 50px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloPrinc {
+    text-transform: uppercase;
+    color: white;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.buttonMain {
+    margin-top: 20px;
+
+    border: #CBC2C2 solid 1px;
+    background-color: #CBC2C2;
+}
+.divpart2 {
+    margin: 70px;
+    }
+    .yo{ 
+        display: flex;
+    }
